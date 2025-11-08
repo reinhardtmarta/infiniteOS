@@ -26,6 +26,7 @@ The fractal heart—recursive units spawning infinite mutable sub-layers:
 ## Proof of Concept
 - **Colab Demo**: Interactive simulation of aureo-state qubits—twist with φ, adapt to noise in multiversals, normalized probabilities. Run and see harmonic balance! [Link: Insert your Colab URL here]
 - **Code File**: See `aureo_state.py` for the core Python sim (no advanced programming required—NumPy basics).
+![Evolution GIF](so_infinite_evolution.gif)
 
 Example output (Layer 1, no noise): `[0.5 0.5]` – perfect φ harmony!
 
