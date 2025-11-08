@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Colab
+*.ipynb_checkpoints
+/content/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Logs and temps
+*.log
+temp/
