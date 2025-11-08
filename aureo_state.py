@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as numpy
 
 phi = (1 + np.sqrt(5)) / 2  # 1.618 magic!
 
