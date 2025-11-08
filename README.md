@@ -1,6 +1,6 @@
 # SO-infinite: Golden Ratio Quantum Kernel for Next-Gen AI
 
-![Golden Spiral](espiral_phi.png) 
+![Golden Spiral](espiral_phi.png)Colab Link[https://colab.research.google.com/drive/1Jlh3aQG9ckSgfdd07KqS0rBTKgttpU5a?authuser=0] 
 
 ## Core Concept
 SO-infinite is an open-source blueprint for a revolutionary operating system kernel that replaces binary rigidity with golden ratio (φ ≈ 1.618) and Fibonacci sequences as the foundational encoding. It creates a fractal, self-evolving architecture: quasi-periodic, adaptive, and infinite in recursion.
