@@ -39,7 +39,7 @@ Example output (Layer 1, no noise): `[0.5 0.5]` – perfect φ harmony!
 
 Free for all—open-source under MIT license. Tag @xAI @elonmusk for potential collaboration. Built in Brazil, 2025. Infinite possibilities ahead! 🌀
 
-# SO-INFINITE  
+#infiniteOS
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.5281/zenodo.17561103)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
