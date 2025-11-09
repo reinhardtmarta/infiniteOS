@@ -1,4 +1,4 @@
-# SO-infinite: Golden Ratio Quantum Kernel for Next-Gen AI
+# InfiniteOS: Golden Ratio Quantum Kernel for Next-Gen AI
 
 ![Golden Spiral](espiral_phi.png)Colab Link[https://colab.research.google.com/drive/1Jlh3aQG9ckSgfdd07KqS0rBTKgttpU5a?authuser=0] 
 
@@ -43,4 +43,4 @@ Free for all—open-source under MIT license. Tag @xAI @elonmusk for potential c
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.5281/zenodo.17561103)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-SO-INFINITE is an open-source operating system exploring infinite computational evolution and self-organization.
+infiniteOS is an open-source operating system exploring infinite computational evolution and self-organization.
