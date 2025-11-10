@@ -20,4 +20,10 @@ class InfiniteKernel:
                                                                                 
                                                                                     def status(self):
                                                                                             return [f"{l['id']}: {l['description']}" for l in self.layers]
+                                                                                            
+                                                                                            from kernel.scheduler import HarmonicScheduler
+
+                                                                                            sched = HarmonicScheduler(tick=0.05)
+                                                                                            pid = sched.spawn(my_task, name="svc", priority=2)
+                                                                                            sched.run(runtime=10.0)
                                                             }
