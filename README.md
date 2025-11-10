@@ -19,6 +19,7 @@ This evolves like nature: infinite sub-layers without collapse, hybrid classical
 - **Scalability**: Infinite recursion supports everything from IoT to supercomputers, with binary fully integrated.
 
 ## ASCII Pattern (Evolved Core Visual)
+Binary plus 1 6 1 8 with layers.
 The fractal heart—recursive units spawning infinite mutable sub-layers:
 1 2 3 4 5 6 5 4 3 4 5 6 5 4 4 5 6 5 5
 6 7 8 9 1 2 3 4 5 7 8 9 1 2 3 4 5 8 9 1 2 3 4 5 6 7 1 2 3 4 5 6 7 8 3 4 5 6 7 8 4 5 6 7 8 5 6 7 8 6 7 8 7 8 7 6 5 4 3 2 1 7 6 5 4 3  2 1 6 5 4 3 2 1 .. 2... 3 ... 4 5 4
