@@ -8,7 +8,20 @@ from kernel.core import InfiniteKernel
 from kernel.protection import ProtectionLayer
 from ui.shell import Shell
 from time import sleep
+from src.kernel.phi_core import PhiCore
 
+if __name__ == "__main__":
+    bits = [1, 0, 1, 1, 0, 1]
+        core = PhiCore(layers=4)
+
+            encoded = core.encode(bits)
+                print("Encoded:", encoded)
+
+                    harmonized = core.harmonize()
+                        print("Harmonized:", harmonized)
+
+                            decoded = core.decode()
+                                print("Decoded:", decoded)
 def boot_sequence():
     print("🌀 Booting SO-Infinite v0.2 ...")
         sleep(0.5)
