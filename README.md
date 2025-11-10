@@ -1,4 +1,4 @@
-# InfiniteOS: Golden Ratio Quantum Kernel for Next-Gen AI
+#so-infinite: Golden Ratio Quantum Kernel for Next-Gen AI
 
 ![Golden Spiral](espiral_phi.png)Colab Link[https://colab.research.google.com/drive/1Jlh3aQG9ckSgfdd07KqS0rBTKgttpU5a?authuser=0] 
 
