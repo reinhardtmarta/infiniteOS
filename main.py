@@ -37,6 +37,11 @@ def boot_sequence():
                                                                         print("Harmonized:", harmonized)
                                                                             decoded = core.decode()
                                                                                 print("Decoded:", decoded)
+                                                                                
+                                                                                🧬 Kernel evolution:
+                                                                                  ▪ ['harmony', 'void', 'harmony'] (φ-metric: 0.982)
+                                                                                    ▪ ['growth', 'presence', 'harmony'] (φ-metric: 0.991)
+                                                                                    ✅ All layers stable.
 
                                                                                     # Evolui o kernel
                                                                                         print("\n🧬 Kernel evolution:")
