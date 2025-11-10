@@ -38,12 +38,7 @@ def boot_sequence():
                                                                             decoded = core.decode()
                                                                                 print("Decoded:", decoded)
                                                                                 
-                                                                                🧬 Kernel evolution:
-                                                                                  ▪ ['harmony', 'void', 'harmony'] (φ-metric: 0.982)
-                                                                                    ▪ ['growth', 'presence', 'harmony'] (φ-metric: 0.991)
-                                                                                    ✅ All layers stable.
-
-                                                                                    # Evolui o kernel
+                                                                             # Evolui o kernel
                                                                                         print("\n🧬 Kernel evolution:")
                                                                                             for _ in range(3):
                                                                                                     layer = kernel.evolve()
