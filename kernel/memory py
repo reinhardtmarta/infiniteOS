@@ -1,0 +1,58 @@
+# kernel/memory.py
+# ==========================================
+# 🧠 Camada de Memória Simbólica - InfiniteOS
+# ==========================================
+
+import json
+from collections import defaultdict
+from datetime import datetime
+
+class MemoryLayer:
+    def __init__(self, storage_path="data/memory.json"):
+            self.storage_path = storage_path
+                    self.memory = defaultdict(list)
+
+                            try:
+                                        with open(self.storage_path, "r") as f:
+                                                        self.memory.update(json.load(f))
+                                                                except FileNotFoundError:
+                                                                            pass
+
+                                                                                def store(self, harmonic_pattern, meaning):
+                                                                                        """Armazena um par (padrão harmônico, significado simbólico)"""
+                                                                                                key = str(harmonic_pattern)
+                                                                                                        record = {
+                                                                                                                        "meaning": meaning,
+                                                                                                                                    "timestamp": datetime.now().isoformat(),
+                                                                                                                                                "frequency": 1
+                                                                                                        }
+
+                                                                                                                # Se já existe, incrementa a frequência
+                                                                                                                        for rec in self.memory[key]:
+                                                                                                                                    if rec["meaning"] == meaning:
+                                                                                                                                                    rec["frequency"] += 1
+                                                                                                                                                                    break
+                                                                                                                                                                            else:
+                                                                                                                                                                                        self.memory[key].append(record)
+
+                                                                                                                                                                                                self._save()
+
+                                                                                                                                                                                                    def recall(self, harmonic_pattern):
+                                                                                                                                                                                                            """Retorna significados relacionados a um padrão"""
+                                                                                                                                                                                                                    key = str(harmonic_pattern)
+                                                                                                                                                                                                                            if key in self.memory:
+                                                                                                                                                                                                                                        return sorted(self.memory[key], key=lambda r: -r["frequency"])
+                                                                                                                                                                                                                                                return []
+
+                                                                                                                                                                                                                                                    def evolve(self):
+                                                                                                                                                                                                                                                            """Auto-organiza a memória (reforço de padrões recorrentes)"""
+                                                                                                                                                                                                                                                                    for key, records in self.memory.items():
+                                                                                                                                                                                                                                                                                total = sum(r["frequency"] for r in records)
+                                                                                                                                                                                                                                                                                            for r in records:
+                                                                                                                                                                                                                                                                                                            r["weight"] = round(r["frequency"] / total, 3)
+                                                                                                                                                                                                                                                                                                                    self._save()
+
+                                                                                                                                                                                                                                                                                                                        def _save(self):
+                                                                                                                                                                                                                                                                                                                                with open(self.storage_path, "w") as f:
+                                                                                                                                                                                                                                                                                                                                            json.dump(self.memory, f, indent=2)
+                                                                                                        }
