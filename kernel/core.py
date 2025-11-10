@@ -6,6 +6,19 @@ import math
 import random
 from time import time
 from kernel.scheduler import HarmonicScheduler
+from kernel.semantic import SemanticLayer
+
+class InfiniteKernel:
+    def __init__(self):
+            self.semantic = SemanticLayer()
+                    self.layers = []
+
+                        def evolve(self, data):
+                                # processa o dado no nível harmônico
+                                        harmonic = [d * 1.618 for d in data]
+                                                meaning = self.semantic.interpret(harmonic)
+                                                        self.layers.append(meaning)
+                                                                return meaning
 
 PHI = (1 + math.sqrt(5)) / 2
 
