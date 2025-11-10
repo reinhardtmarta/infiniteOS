@@ -7,6 +7,7 @@ import random
 from time import time
 from kernel.scheduler import HarmonicScheduler
 from kernel.semantic import SemanticLayer
+from kernel.metric import PhiMetric
 
 class InfiniteKernel:
     def __init__(self):
