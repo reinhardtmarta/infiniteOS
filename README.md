@@ -34,7 +34,7 @@ The fractal heart—recursive units spawning infinite mutable sub-layers:
 Example output (Layer 1, no noise): `[0.5 0.5]` – perfect φ harmony!
 
 ## Getting Started
-1. Clone: `git clone [https://gitlab.com/martasreinhardt/so-infinite]`
+1. Clone: `git clone [https://gitlab.com/reinhardtmarta/so-infinite]`
 2. Run in Colab: Open the linked notebook, execute cells for sim + spiral plot.
 3. Iterate: Fork and mutate modes (e.g., add Rust for kernel prototype).
 
