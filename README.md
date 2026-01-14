@@ -1,4 +1,4 @@
-# so-infinite: Golden Ratio Quantum Kernel for Next-Gen AI
+# infiniteOS: Golden Ratio Quantum Kernel for Next-Gen AI
 
 ![Golden Spiral](espiral_phi.png)Colab Link[https://colab.research.google.com/drive/1Jlh3aQG9ckSgfdd07KqS0rBTKgttpU5a?authuser=0] 
 
@@ -34,7 +34,7 @@ The fractal heart—recursive units spawning infinite mutable sub-layers:
 Example output (Layer 1, no noise): `[0.5 0.5]` – perfect φ harmony!
 
 ## Getting Started
-1. Clone: `git clone [https://gitlab.com/reinhardtmarta/so-infinite]`
+1. Clone: `git clone [https://gitlab.com/reinhardtmarta/infiniteOS]`
 2. Run in Colab: Open the linked notebook, execute cells for sim + spiral plot.
 3. Iterate: Fork and mutate modes (e.g., add Rust for kernel prototype).
 
